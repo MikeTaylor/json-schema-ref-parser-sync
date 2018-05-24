@@ -2,7 +2,7 @@
 
 [BigstickCarpet](https://github.com/BigstickCarpet)'s [JSON Schema $Ref Parser](https://github.com/BigstickCarpet/json-schema-ref-parser) is very useful, but at present has no synchronous API -- despite [multiple](https://github.com/BigstickCarpet/json-schema-ref-parser/issues/14) [requests](https://github.com/BigstickCarpet/swagger-parser/issues/54) for [one](https://github.com/BigstickCarpet/json-schema-ref-parser/issues/82).
 
-This tiny module uses a hideous hack to present a simple synchronous API to $Ref Parser's `dereference` method:
+This tiny package uses a hideous hack to present a simple synchronous API to $Ref Parser's `dereference` method:
 
     const $SyncRefParser = require('json-schema-ref-parser-sync');
     expandedSchema = $SyncRefParser.dereference(schema, options);
