@@ -1,0 +1,19 @@
+{
+  "name": "json-schema-ref-parser-sync",
+  "version": "1.0.0",
+  "description": "Synchronous API for JSON Schema $Ref Parser",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeTaylor/json-schema-ref-parser-sync.git"
+  },
+  "author": "Mike Taylor",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MikeTaylor/json-schema-ref-parser-sync/issues"
+  },
+  "dependencies": {
+    "deasync": "^0.1.13",
+    "json-schema-ref-parser": "^5.0.3"
+  }
+}
